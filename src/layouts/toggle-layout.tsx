@@ -27,7 +27,6 @@ export default function ToggleLayout() {
         Check me
       </label>
       <Toggle
-        onChange={() => {}}
         type="checkbox"
         id="vehicle2"
         name="vehicle2"
@@ -39,6 +38,7 @@ export default function ToggleLayout() {
       <div>
         <Toggle
           checked={isChecked}
+          onChange={handleCheckboxChange}
           type="checkbox"
           id="vehicle3"
           name="vehicle3"
@@ -51,7 +51,6 @@ export default function ToggleLayout() {
           Check me
         </label>
         <Toggle
-          onChange={() => {}}
           type="checkbox"
           id="vehicle4"
           name="vehicle4"
