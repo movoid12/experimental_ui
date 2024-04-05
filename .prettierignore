@@ -1,0 +1,4 @@
+*.mist.tsx # Ignore compiled files
+
+build
+coverage

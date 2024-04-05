@@ -1,0 +1,41 @@
+@scope (.button) {
+  button:scope {
+    @apply  py-3 px-6 m-2 font-sans text-sm;
+
+    &[data-isUppercase] {
+      @apply uppercase;
+    }
+
+    &[data-radius='md'] {
+      @apply rounded-md;
+    }
+
+    &[data-radius='lg'] {
+      @apply rounded-2xl;
+    }
+
+    &[data-radius='xl'] {
+      @apply rounded-3xl;
+    }
+
+    &[data-variant='outline'] {
+      @apply border-2;
+    }
+
+    &[data-variant='filled'] {
+      @apply bg-gray-500 text-white;
+    }
+   
+    &:disabled {
+      @apply pointer-events-none opacity-50 shadow-none;
+    }
+
+    &:focus {
+      @apply shadow-none outline-none;
+    }
+
+    &:active {
+      @apply shadow-none opacity-[0.85];
+    }
+  }
+}
