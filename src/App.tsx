@@ -33,6 +33,7 @@ function App() {
             value="Bike"
             title="check"
             role="switch"
+            color='blue'
           ></Toggle>
           <label htmlFor="basic" className="pl-2 text-white">
             Check me
