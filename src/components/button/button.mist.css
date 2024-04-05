@@ -1,6 +1,6 @@
 @scope (.button) {
   button:scope {
-    @apply  py-3 px-6 m-2 text-lg;
+    @apply  py-3 px-6 m-2 text-sm;
 
     &[data-isUppercase] {
       @apply uppercase;
