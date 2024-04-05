@@ -1,0 +1,102 @@
+@scope (.toggle) {
+  input:scope {
+    --x0: 0.07em;
+    --x1: 0.07em;
+    --x2: 0.07em;
+    --x3: 0.07em;
+    --x4: 0.07em;
+    --x5: 0.07em;
+    --x6: 0.07em;
+    --x7: 0.07em;
+    --x8: 0.07em;
+    --x9: 0.07em;
+    --x10: 0.07em;
+    --x11: 0.07em;
+    --x12: 0.07em;
+    --x13: 0.07em;
+    --x14: 0.07em;
+    --x15: 0.07em;
+    --x16: 0.07em;
+    --x17: 0.07em;
+    color: #0ff;
+    appearance: none;
+    position: relative;
+    font-size: 1em;
+    width: 3em;
+    aspect-ratio: 3;
+    border: max(1px, 0.025em) solid;
+    filter: drop-shadow(0em 0em 0em) drop-shadow(0em 0em 0em);
+    transition:
+      filter 0.25s,
+      --x0 0.25s,
+      --x2 0.25s,
+      --x1 0.25s,
+      --x3 0.25s,
+      --x4 0.25s,
+      --x5 0.25s,
+      --x6 0.25s,
+      --x7 0.25s,
+      --x8 0.25s,
+      --x8 0.25s,
+      --x9 0.25s,
+      --x10 0.25s,
+      --x12 0.25s,
+      --x11 0.25s,
+      --x13 0.25s,
+      --x14 0.25s,
+      --x15 0.25s,
+      --x16 0.25s,
+      --x17 0.25s;
+    transition-timing-function: linear, ease-in, cubic-bezier(0.1, 0.7, 1, 0.1),
+      ease-out, ease-in-out, steps(6, end), steps(10, start),
+      cubic-bezier(0.29, 1.01, 1, -0.68);
+    transition-delay: 0s, 0.1s, 0.05s, 0.2s, 0.15s, 0.3s;
+    box-sizing: border-box;
+    background:
+      linear-gradient(currentcolor 0 0) var(--x0) 0.07em,
+      linear-gradient(currentcolor 0 0) var(--x1) 0.11em,
+      linear-gradient(currentcolor 0 0) var(--x2) 0.16em,
+      linear-gradient(currentcolor 0 0) var(--x3) 0.2em,
+      linear-gradient(currentcolor 0 0) var(--x4) 0.25em,
+      linear-gradient(currentcolor 0 0) var(--x5) 0.29em,
+      linear-gradient(currentcolor 0 0) var(--x6) 0.34em,
+      linear-gradient(currentcolor 0 0) var(--x7) 0.38em,
+      linear-gradient(currentcolor 0 0) var(--x8) 0.43em,
+      linear-gradient(currentcolor 0 0) var(--x9) 0.47em,
+      linear-gradient(currentcolor 0 0) var(--x10) 0.52em,
+      linear-gradient(currentcolor 0 0) var(--x11) 0.56em,
+      linear-gradient(currentcolor 0 0) var(--x12) 0.61em,
+      linear-gradient(currentcolor 0 0) var(--x13) 0.65em,
+      linear-gradient(currentcolor 0 0) var(--x14) 0.7em,
+      linear-gradient(currentcolor 0 0) var(--x15) 0.74em,
+      linear-gradient(currentcolor 0 0) var(--x16) 0.79em,
+      linear-gradient(currentcolor 0 0) var(--x17) 0.83em;
+    background-size: 0.8em 0.06em;
+    background-repeat: no-repeat;
+
+    &:checked {
+      --x0: 2.09em;
+      --x1: 2.09em;
+      --x2: 2.09em;
+      --x3: 2.09em;
+      --x4: 2.09em;
+      --x5: 2.09em;
+      --x6: 2.09em;
+      --x7: 2.09em;
+      --x8: 2.09em;
+      --x9: 2.09em;
+      --x10: 2.09em;
+      --x11: 2.09em;
+      --x12: 2.09em;
+      --x13: 2.09em;
+      --x14: 2.09em;
+      --x15: 2.09em;
+      --x16: 2.09em;
+      --x17: 2.09em;
+      filter: drop-shadow(0em 0em 0.05em) drop-shadow(0em 0em 0.035em);
+    }
+    &:hover {
+      filter: drop-shadow(0em 0em 0.02em) drop-shadow(0em 0em 0em);
+    }
+  }
+}
